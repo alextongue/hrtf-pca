@@ -1,6 +1,6 @@
 # HRTF PCA
 
-Performs a principal component analysis (PCA) on a set of head-related transfer functions (HRTFs). It reconstructs 128-pt HRTF's from the UC Davis CIPIC dataset from 1 (128x data reduction) base to 128 bases (no data reduction).
+Performs a principal component analysis (PCA) on a set of head-related transfer functions (HRTFs). It's set up to reconstruct 128-pt HRTF's from the UC Davis CIPIC dataset from 1 (128x data reduction) base to 128 bases (no data reduction), but you can change the code to accommodate different FFT sizes, databases, decompositions, etc.
 
 ## Instructions
 1. Download this repository.
